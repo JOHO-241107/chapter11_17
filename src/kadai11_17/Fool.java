@@ -1,0 +1,20 @@
+package kadai11_17;
+
+public class Fool extends Character implements Human {
+    public void attack(Matango m) {
+        System.out.println(this.name + "は戦わずに遊んでいる");
+    }
+    public void talk() {
+        System.out.println(this.name + "は意味のないことを話した");
+    }
+    public void watch() {
+        System.out.println(this.name + "は虚空を見つめている");
+    }
+    public void hear() {
+        System.out.println(this.name + "は誰かの声を聞いた気がした");
+    }
+    public Fool(String n, int h){
+        this.name = n;
+        this.hp = h;
+    }
+}
