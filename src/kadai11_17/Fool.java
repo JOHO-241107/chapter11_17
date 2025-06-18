@@ -14,8 +14,8 @@ public class Fool extends Character implements Human {
         System.out.println(this.name + "は誰かの声を聞いた気がした");
     }
     public void run(){System.out.println(this.name + "は大笑いしながら逃げ出した");}
-    public Fool(String n, int h){
-        this.name = n;
-        this.hp = h;
+    public Fool(String inputName, int hitpoint){
+        this.name = inputName;
+        this.hp = hitpoint;
     }
 }
